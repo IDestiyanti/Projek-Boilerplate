@@ -7,6 +7,9 @@ Class Dashboard extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('index');
+		$this->load->view('Templates/Header');
+		$this->load->view('Mahasiswa/index');
+		$this->load->view('Templates/Footer');
 	}
 }
+?>
